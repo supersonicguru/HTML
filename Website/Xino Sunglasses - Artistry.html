@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    
+<head>
+    
+    <title>XNO Sunglasses | Designer Sungalsses and Shades</title>
+
+    <meta charset = "utf-8" />
+
+    <link rel="stylesheet" href="Xino Sunglasses - Artistry CSS.css" type= "text/css">
+    <meta name= "viewpoint" content = "width=device-width, initial-scale.0">    
+    
+    <meta name="description" content = "Based in Charlotte, NC - U.S.A - XNO Sunglasses is a small business retailer of premier designer shades. We believe that our customers come first above self. We will be opening in fall 2014. We look forward to your business."
+      
+</head>
+
+<body class="body">
+    
+    <div class ="mainheader" >
+    
+        <a href= "Xino Sunglasses - Home.html"><img src="Xino Logo - (Words).jpg"> </a>
+        
+        <nav><ul>
+            <li><a href="Xino Sunglasses - Home.html">Home</a></li>
+            <li><a href="Xino Sunglasses - News & Updates.html">News & Updates</a></li>
+            <li class="active"><a href="Xino Sunglasses - Artistry.html">Artistry</a></li>
+            <li><a href="Xino Sunglasses - Website Coding.html">Website Coding</a></li>
+            <li><a href="Xino Sunglasses - App. Coding.html">App. Coding</a></li>
+            <li><a href="Xino Sunglasses - Marketing.html">Marketing</a></li>
+            <li><a href="Xino Sunglasses - Employee Contact.html">Employee Contact</a></li>
+        </ul></nav>
+
+    </div>
+    
+    <div class= "mainContent">
+        <div class= "content">
+            <article class = "topcontent">
+                <header>
+                    <h2><a href="#" title="first post"><b> Artistry </b></a></h2></font>
+                </header>
+                
+                <footer>
+                   <!---Add in a slide show of the pics the artists made--->
+                   <p>This is theplace where artists can upload and show what they have been working on.</p>
+                   <p>Please comment and critique the artist's work. Or even request something from them.</p>
+                </footer>
+                
+                <content>
+                    <!---put the lil upload part right here and see if you can add in the lil comment section too--->
+                </content>
+            </article>
+        </div>
+    </div>
+    
+    <form class="form1" method="post" action="link to fourm sever">
+        <fieldset class="fieldset1" title="address">
+            <label>Password:
+            <input type="password" //*password type hides text*// name="pwd" id="pwd"
+            </label>
+            
+            <label>Age
+            <input type="number" min="18" max="100" step="1" value="21"
+            </label>
+            
+            <label>Age
+            <input type="range" min="0" max="100" step="1" value="21"  onchange="showValue(this.value)" //*makes slider*//
+            </label><span id="agedisplay"></span>
+            <script>
+                function showValue(newValue) {
+                    document.getElementById('agedisplay').innerHTML = newValue;
+                    //code
+                }
+            </script>
+            
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" placeholder="Please enter your first name" />
+            
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" />
+            
+            <label for="address1">Address:</label>
+            <input type="text" id="address1" name="address1" />
+            
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" />
+            
+            <label for="state">State:</label>
+                <select id="state" name="state">
+                    <option value="nc">North Carolina</option>
+                </select>
+            
+            <label for="zip">Zip:</label>
+            <input type="text" id="zip" name="zip" />
+            //*entering the workd "required" will make things self checking*//
+        </fieldset>
+        
+        <fieldset title="shipping">
+            <input type="radio" id="std" name="shipping" value="std" />
+            <label for="std">Standard Shipping</label>
+            
+            <input type="radio" id="exp" name="shipping" value="exp" />
+            <label for="exp">Express Shipping</label>
+        </fieldset>
+        
+        <fieldset title="extras">
+            <input type="checkbox" id="gift" name="extras" value="gift" />
+            <label for="gift">Gift Wrapping</label>
+            
+            <input type="checkbox" id="card" name="extras" value="card" />
+            <label for="card">Gift Card</label>
+        </fieldset>
+        
+        <fieldset title="comment">
+            <label for="comment">Comment:</label>
+            <textarea name="comment" id="comment"></textarea>
+        </fieldset>
+        
+        <fieldset title="submit">
+            <input type="submit" class="button" value="place order" />
+        </fieldset>
+    </form> 
+    
+    <div class= "top-sidebar">
+        <article>
+            <h2>The Xino Database:</h2>
+            <p>Welcome to the the Xino Sunglasses™ employee website! Here you can get updated on the latest things happening in Xino.</p>
+        </article>
+    </div>
+    
+    
+    
+    <footer class = "mainFooter">
+        <p> Copyright &copy; <a href= "a" title = "2014 Xinosunglasses.com">2014 Xinosunglasses.com™</a></p>
+    </footer>
+
+</body>
+
+</html>
